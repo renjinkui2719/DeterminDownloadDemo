@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E8F80483CC9AA4BB2C6543A /* Pods_DeterminDownloadDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3CC001AA34DB3A0EAC003C /* Pods_DeterminDownloadDemo.framework */; };
+		91717DE4208D655500955853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91717DE3208D655500955853 /* AppDelegate.m */; };
+		91717DE7208D655500955853 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91717DE6208D655500955853 /* ViewController.m */; };
+		91717DEA208D655500955853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91717DE8208D655500955853 /* Main.storyboard */; };
+		91717DEC208D655500955853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91717DEB208D655500955853 /* Assets.xcassets */; };
+		91717DEF208D655500955853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91717DED208D655500955853 /* LaunchScreen.storyboard */; };
+		91717DF2208D655500955853 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91717DF1208D655500955853 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D3CC001AA34DB3A0EAC003C /* Pods_DeterminDownloadDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeterminDownloadDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D842413CB48DF5AB2711C0B /* Pods-DeterminDownloadDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeterminDownloadDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeterminDownloadDemo/Pods-DeterminDownloadDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		91717DDF208D655500955853 /* DeterminDownloadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeterminDownloadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91717DE2208D655500955853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91717DE3208D655500955853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91717DE5208D655500955853 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91717DE6208D655500955853 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91717DE9208D655500955853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91717DEB208D655500955853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91717DEE208D655500955853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91717DF0208D655500955853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91717DF1208D655500955853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAFC3D8F23B26FDDAA1A9E6F /* Pods-DeterminDownloadDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeterminDownloadDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeterminDownloadDemo/Pods-DeterminDownloadDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91717DDC208D655500955853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8F80483CC9AA4BB2C6543A /* Pods_DeterminDownloadDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF24663DB94D92E4E649415 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D842413CB48DF5AB2711C0B /* Pods-DeterminDownloadDemo.debug.xcconfig */,
+				DAFC3D8F23B26FDDAA1A9E6F /* Pods-DeterminDownloadDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CE99DB7B1215FD7CFAA0039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D3CC001AA34DB3A0EAC003C /* Pods_DeterminDownloadDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91717DD6208D655400955853 = {
+			isa = PBXGroup;
+			children = (
+				91717DE1208D655500955853 /* DeterminDownloadDemo */,
+				91717DE0208D655500955853 /* Products */,
+				2FF24663DB94D92E4E649415 /* Pods */,
+				7CE99DB7B1215FD7CFAA0039 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91717DE0208D655500955853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91717DDF208D655500955853 /* DeterminDownloadDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91717DE1208D655500955853 /* DeterminDownloadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				91717DE2208D655500955853 /* AppDelegate.h */,
+				91717DE3208D655500955853 /* AppDelegate.m */,
+				91717DE5208D655500955853 /* ViewController.h */,
+				91717DE6208D655500955853 /* ViewController.m */,
+				91717DE8208D655500955853 /* Main.storyboard */,
+				91717DEB208D655500955853 /* Assets.xcassets */,
+				91717DED208D655500955853 /* LaunchScreen.storyboard */,
+				91717DF0208D655500955853 /* Info.plist */,
+				91717DF1208D655500955853 /* main.m */,
+			);
+			path = DeterminDownloadDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91717DDE208D655500955853 /* DeterminDownloadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91717DF5208D655500955853 /* Build configuration list for PBXNativeTarget "DeterminDownloadDemo" */;
+			buildPhases = (
+				D53F9F5F173969BE3A2221FE /* [CP] Check Pods Manifest.lock */,
+				91717DDB208D655500955853 /* Sources */,
+				91717DDC208D655500955853 /* Frameworks */,
+				91717DDD208D655500955853 /* Resources */,
+				23C8FD4BC46D677C4BE87A00 /* [CP] Embed Pods Frameworks */,
+				44213F3C215D1B28EBEBFBBE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeterminDownloadDemo;
+			productName = DeterminDownloadDemo;
+			productReference = 91717DDF208D655500955853 /* DeterminDownloadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91717DD7208D655400955853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = JK;
+				TargetAttributes = {
+					91717DDE208D655500955853 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 91717DDA208D655400955853 /* Build configuration list for PBXProject "DeterminDownloadDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91717DD6208D655400955853;
+			productRefGroup = 91717DE0208D655500955853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91717DDE208D655500955853 /* DeterminDownloadDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91717DDD208D655500955853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91717DEF208D655500955853 /* LaunchScreen.storyboard in Resources */,
+				91717DEC208D655500955853 /* Assets.xcassets in Resources */,
+				91717DEA208D655500955853 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23C8FD4BC46D677C4BE87A00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DeterminDownloadDemo/Pods-DeterminDownloadDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CustomIOSAlertView/CustomIOSAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RJIterator/RJIterator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CustomIOSAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RJIterator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeterminDownloadDemo/Pods-DeterminDownloadDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44213F3C215D1B28EBEBFBBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeterminDownloadDemo/Pods-DeterminDownloadDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D53F9F5F173969BE3A2221FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeterminDownloadDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91717DDB208D655500955853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91717DE7208D655500955853 /* ViewController.m in Sources */,
+				91717DF2208D655500955853 /* main.m in Sources */,
+				91717DE4208D655500955853 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91717DE8208D655500955853 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91717DE9208D655500955853 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91717DED208D655500955853 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91717DEE208D655500955853 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91717DF3208D655500955853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91717DF4208D655500955853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91717DF6208D655500955853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D842413CB48DF5AB2711C0B /* Pods-DeterminDownloadDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5VVHWEWBM;
+				INFOPLIST_FILE = DeterminDownloadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rjk.DeterminDownloadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91717DF7208D655500955853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFC3D8F23B26FDDAA1A9E6F /* Pods-DeterminDownloadDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5VVHWEWBM;
+				INFOPLIST_FILE = DeterminDownloadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rjk.DeterminDownloadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91717DDA208D655400955853 /* Build configuration list for PBXProject "DeterminDownloadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91717DF3208D655500955853 /* Debug */,
+				91717DF4208D655500955853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91717DF5208D655500955853 /* Build configuration list for PBXNativeTarget "DeterminDownloadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91717DF6208D655500955853 /* Debug */,
+				91717DF7208D655500955853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91717DD7208D655400955853 /* Project object */;
+}

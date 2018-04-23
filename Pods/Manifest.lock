@@ -1,0 +1,26 @@
+PODS:
+  - CustomIOSAlertView (0.9.5)
+  - PromiseKit (6.2.4):
+    - PromiseKit/CorePromise (= 6.2.4)
+    - PromiseKit/Foundation (= 6.2.4)
+    - PromiseKit/UIKit (= 6.2.4)
+  - PromiseKit/CorePromise (6.2.4)
+  - PromiseKit/Foundation (6.2.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.2.4):
+    - PromiseKit/CorePromise
+  - RJIterator (1.1.5)
+
+DEPENDENCIES:
+  - CustomIOSAlertView (~> 0.9.5)
+  - PromiseKit (~> 6.0)
+  - RJIterator (~> 1.1.5)
+
+SPEC CHECKSUMS:
+  CustomIOSAlertView: cc4fa8e36219be3fd5ebcd40789f5b4aaae0f38e
+  PromiseKit: 625b1fc69944fc839503748101c5968cf54b527b
+  RJIterator: a2a00a61eefa88428c2d9549f35456e4abe07ee7
+
+PODFILE CHECKSUM: 9291cd04c586fe783623921dc32d60714cc89e2f
+
+COCOAPODS: 1.4.0

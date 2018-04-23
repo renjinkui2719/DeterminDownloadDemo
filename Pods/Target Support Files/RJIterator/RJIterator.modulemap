@@ -1,0 +1,6 @@
+framework module RJIterator {
+  umbrella header "RJIterator-umbrella.h"
+
+  export *
+  module * { export * }
+}
