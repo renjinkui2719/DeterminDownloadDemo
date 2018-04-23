@@ -100,7 +100,7 @@
 }
 ```
 
-rj_async实现方式是基于[RJIterator](https://github.com/renjinkui2719/RJIterator)中的async异步块:
+rj_async实现方式基于[RJIterator](https://github.com/renjinkui2719/RJIterator)中的async异步块:
 ```Objective-C
 - (void)onRjDownloadButton:(id)sender {
     _downloadedImageView.image = nil;
