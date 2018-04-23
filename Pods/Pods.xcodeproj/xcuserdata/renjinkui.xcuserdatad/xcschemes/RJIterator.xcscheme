@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EB5C6E4073CFEE94C40530CC04F4D520"
+               BlueprintIdentifier = "51FFB150142A8D28AA67268A7AECD7B6"
                BlueprintName = "RJIterator"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "RJIterator.framework">

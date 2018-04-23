@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5E8F80483CC9AA4BB2C6543A /* Pods_DeterminDownloadDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3CC001AA34DB3A0EAC003C /* Pods_DeterminDownloadDemo.framework */; };
+		915CB5DF208D6B6E00EAEDCD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915CB5DE208D6B6E00EAEDCD /* SystemConfiguration.framework */; };
+		915CB5E2208D786B00EAEDCD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 915CB5E1208D786B00EAEDCD /* Reachability.m */; };
 		91717DE4208D655500955853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91717DE3208D655500955853 /* AppDelegate.m */; };
 		91717DE7208D655500955853 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91717DE6208D655500955853 /* ViewController.m */; };
 		91717DEA208D655500955853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91717DE8208D655500955853 /* Main.storyboard */; };
@@ -19,6 +21,9 @@
 /* Begin PBXFileReference section */
 		3D3CC001AA34DB3A0EAC003C /* Pods_DeterminDownloadDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeterminDownloadDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D842413CB48DF5AB2711C0B /* Pods-DeterminDownloadDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeterminDownloadDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeterminDownloadDemo/Pods-DeterminDownloadDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		915CB5DE208D6B6E00EAEDCD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		915CB5E0208D786A00EAEDCD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		915CB5E1208D786B00EAEDCD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		91717DDF208D655500955853 /* DeterminDownloadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeterminDownloadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91717DE2208D655500955853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91717DE3208D655500955853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915CB5DF208D6B6E00EAEDCD /* SystemConfiguration.framework in Frameworks */,
 				5E8F80483CC9AA4BB2C6543A /* Pods_DeterminDownloadDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +62,7 @@
 		7CE99DB7B1215FD7CFAA0039 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				915CB5DE208D6B6E00EAEDCD /* SystemConfiguration.framework */,
 				3D3CC001AA34DB3A0EAC003C /* Pods_DeterminDownloadDemo.framework */,
 			);
 			name = Frameworks;
@@ -82,6 +89,8 @@
 		91717DE1208D655500955853 /* DeterminDownloadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				915CB5E0208D786A00EAEDCD /* Reachability.h */,
+				915CB5E1208D786B00EAEDCD /* Reachability.m */,
 				91717DE2208D655500955853 /* AppDelegate.h */,
 				91717DE3208D655500955853 /* AppDelegate.m */,
 				91717DE5208D655500955853 /* ViewController.h */,
@@ -172,13 +181,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DeterminDownloadDemo/Pods-DeterminDownloadDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CustomIOSAlertView/CustomIOSAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/Alert/Alert.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/RJIterator/RJIterator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CustomIOSAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alert.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RJIterator.framework",
 			);
@@ -229,6 +238,7 @@
 			files = (
 				91717DE7208D655500955853 /* ViewController.m in Sources */,
 				91717DF2208D655500955853 /* main.m in Sources */,
+				915CB5E2208D786B00EAEDCD /* Reachability.m in Sources */,
 				91717DE4208D655500955853 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B5VVHWEWBM;
 				INFOPLIST_FILE = DeterminDownloadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rjk.DeterminDownloadDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -382,6 +393,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B5VVHWEWBM;
 				INFOPLIST_FILE = DeterminDownloadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rjk.DeterminDownloadDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

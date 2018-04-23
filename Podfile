@@ -6,7 +6,7 @@ target 'DeterminDownloadDemo' do
   use_frameworks!
 
   # Pods for DeterminDownloadDemo
-  pod 'CustomIOSAlertView', '~> 0.9.5'
+  pod 'Alert', '~> 1.0.4'
   pod 'PromiseKit', '~> 6.0'
   pod 'RJIterator', '~> 1.1.5'
 

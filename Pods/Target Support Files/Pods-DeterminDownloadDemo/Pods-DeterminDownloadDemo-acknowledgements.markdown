@@ -1,15 +1,9 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## CustomIOSAlertView
+## Alert
 
-# License
-
-**Please feel free to push back anything you think is useful for the project.**
-
-Copyright (c) 2013 Richard Dancsi
-
-Lincesed under [The MIT License](http://opensource.org/licenses/MIT) (MIT)
+Copyright (c) 2011–2016 Whde (http://github/whde)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -28,7 +22,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
 
 
 ## PromiseKit

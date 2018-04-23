@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "CustomIOSAlertView.h"
+#import "Alert.h"
 
-FOUNDATION_EXPORT double CustomIOSAlertViewVersionNumber;
-FOUNDATION_EXPORT const unsigned char CustomIOSAlertViewVersionString[];
+FOUNDATION_EXPORT double AlertVersionNumber;
+FOUNDATION_EXPORT const unsigned char AlertVersionString[];
 

@@ -134,12 +134,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/CustomIOSAlertView/CustomIOSAlertView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Alert/Alert.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RJIterator/RJIterator.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/CustomIOSAlertView/CustomIOSAlertView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Alert/Alert.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RJIterator/RJIterator.framework"
 fi
