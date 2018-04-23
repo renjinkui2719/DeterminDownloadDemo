@@ -67,7 +67,7 @@
 ////////////////////////////////////////////////////////////////////////
 - (void)onCbDownloadButton:(id)sender {
     _downloadedImageView.image = nil;
-    
+    //确定是否可以下载
     [self cbDeterminDownloadWithCallback:^(BOOL download) {
         if (!download) {
             return;
@@ -112,7 +112,7 @@
 
 }
 
-//是否下载
+//确定是否可以下载
 - (void)cbDeterminDownloadWithCallback:(void (^)(BOOL download))callback {
     //当前网络未连接
     if (_reachability.currentReachabilityStatus == NotReachable) {
@@ -166,7 +166,7 @@
 ////////////////////////////////////////////////////////////////////////
 - (void)onPmkDownloadButton:(id)sender {
     _downloadedImageView.image = nil;
-    
+    //确定是否可以下载
     [self pmkDeterminDownload]
     .then(^{
         //可以下载，请求下载地址
@@ -267,11 +267,9 @@
     _downloadedImageView.image = nil;
     
     rj_async(^{
-        RJResult *result = nil;
         //决定是否可以下载
-        result = rj_await([self rjDeterminDownload]);
-        //不可下载
-        if (![result.value boolValue]) {
+        if (![rj_await([self rjDeterminDownload]).value boolValue]) {
+            //不可下载
             return;
         }
 
@@ -281,24 +279,23 @@
         _cbDownloadButton.hidden = YES;
         _pmkDownloadButton.hidden = YES;
         
-        result = rj_await([self rjQueryDownloadUrl]);
-        if (!result.value) {
+        NSString *url = rj_await([self rjQueryDownloadUrl]).value;
+        if (!url) {
             //获取下载地址失败
             [[[Alert alloc] initWithTitle:@"提示" message:@"获取下载地址失败" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"确定", nil] show];
             return;
         }
-        NSString *url = result.value;
        
         //开始下载
         [_rjDownloadButton setTitle:@"下载中..." forState:UIControlStateNormal];
-        result = rj_await([self rjDownloadImageWithUrl:url]);
-        if (!result.value) {
+        UIImage *image = rj_await([self rjDownloadImageWithUrl:url]).value;
+        if (!image) {
             //下载失败
             [[[Alert alloc] initWithTitle:@"提示" message:@"下载失败" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"确定", nil] show];
             return;
         }
         //下载成功
-        _downloadedImageView.image = result.value;
+        _downloadedImageView.image = image;
     })
     .finally(^{
         //恢复UI
